@@ -1,0 +1,44 @@
+body{
+    background-color: #F8F8F8;
+}
+*{
+    // box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    // height: 100%;
+}
+.col2{
+background-color: chartreuse;
+}
+.main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.footer{
+    width: 100px;
+    height: 150px;
+    background-color: burlywood;
+}
+
+.listyle{
+    color: crimson;
+    font-size: 20px;
+}
+
+.list1{
+    list-style-type:none;
+}
