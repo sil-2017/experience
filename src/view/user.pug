@@ -1,0 +1,12 @@
+mixin card(img,name,price,attr)
+  .cards-item
+    div
+      img(src=img)
+      p=name 
+    p.cards-price=prices
+    div
+
+-var images=['./img/us1.svg','./img/us2.svg','./img/us3.svg','./img/us4.svg','./img/us5.svg','./img/us6.svg',]
+.cards
+    each item in images
+        +card(item, 'Albert Wong', '$204')
